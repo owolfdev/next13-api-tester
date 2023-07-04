@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
       project,
     };
 
-    return NextResponse.json(notionData);
+    return NextResponse.json(data);
   } catch (error) {
     // handle error
     console.error(error);
